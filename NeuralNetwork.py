@@ -1,9 +1,17 @@
+"""
+    Author: Lasse Regin Nielsen
+"""
+
 from __future__ import division, print_function
 import os
 import numpy as np
 filepath = os.path.dirname(os.path.abspath(__file__))
 
 class NeuralNetwork():
+    """
+        Simple implementation of a Nerual Network trained using
+        Stochastic Gradient Descent with momentum.
+    """
 
     def __init__(self, layers, num_epochs=10000, learning_rate=0.10, alpha=0.9,
                  activation_func='sigmoid', epsilon=0.001, print_details=True):
