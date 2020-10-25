@@ -1,7 +1,9 @@
 from __future__ import division, print_function
 import csv, os, sys
 import numpy as np
-from NeuralNetwork import NeuralNetwork
+
+from neural_network import NeuralNetwork
+
 filepath = os.path.dirname(os.path.abspath(__file__))
 
 def read_data(filename, has_header=True):

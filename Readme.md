@@ -1,6 +1,6 @@
 # Neural Network
 
-Simple implementation of a Nerual Network trained using Stochastic Gradient Descent with momentum.
+Simple implementation of a Neural Network trained using Stochastic Gradient Descent with momentum.
 
 ## Supported python versions:
 * Python 2.7
@@ -17,7 +17,7 @@ Following is an example of a classification problem using a network with 2 hidde
 
 ```python
 
-from NeuralNetwork import NeuralNetwork
+from neural_network import NeuralNetwork
 d = 5 # Dimension of input
 K = 3 # Number of classes
 layers = [d, 8, 4, K]
